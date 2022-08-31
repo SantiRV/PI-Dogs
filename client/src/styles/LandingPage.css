@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/888/130/HD-wallpaper-black-french-bulldog-in-flowers-background-dog.jpg);
+    background-size: cover;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    border-radius: 8px;
+    background-color: burlywood;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+    top: 50%;
+    left: 38%;
+    position: absolute;
+}
+
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '/00bb';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
