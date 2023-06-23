@@ -1,4 +1,4 @@
-const {Dog, Temperament} = require('../db');
+const {Dog, Temperament} = require('../db'); 
 
 /*  funcion que retorna la informacion de la tabla Dog incluyendo la tabla temperament  */
 
